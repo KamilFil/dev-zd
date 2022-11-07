@@ -5,6 +5,12 @@
 }
 
 body {
-    background: green;
-    width: 100vh;
+    background: #008000;
+    height: 100vh;
+}
+
+nav {
+    height: 60px;
+    border-bottom: 3px solid black;
+    background: #808000;
 }
