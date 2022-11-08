@@ -10,7 +10,32 @@ body {
 }
 
 nav {
-    height: 60px;
+    height: 40px;
     border-bottom: 3px solid black;
     background: #808000;
+}
+
+.square-box {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.square-box .item-square {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transform: rotate(45deg) ;
+    border: 2px solid black;
+    background: #FF0000;
+}
+
+.square-box .item-square:nth-child(1) {
+    right: 0;
+}
+
+.square-box .item-square:nth-child(2) {
+    bottom: 0;
 }
