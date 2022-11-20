@@ -9,9 +9,7 @@ body {
     height: 100vh;
 }
 
-.wrap-element {
-    height: 100%;
-}
+
 
 nav {
     height: 50px;
@@ -93,49 +91,6 @@ nav {
     text-transform: uppercase;
 }
 
-
-
-@media (min-width: 385px) {
-    .square-box {
-    width: 270px;
-    height: 270px;
-    }
-
-    .item-circle {
-        width: 120px;
-        height: 120px;
-    }
-
-    .rectangle-item {
-        margin-top: 14px;
-        width: 220px;
-    }
-}
-
-@media (min-width: 420px) {
-    .square-box {
-        width: 300px;
-        height: 300px;
-        top: 40px;
-        left: 40px
-    }
-
-    .item-dashes {
-        width: 160px;
-       margin: 18px;
-    }
-
-    .item-circle {
-        width: 140px;
-        height: 140px;
-    }
-
-    .rectangle-item {
-        width: 270px;
-        height: 500px;
-    }
-
-}
 
 @media (min-width: 583px) {
     .wrap-element {
